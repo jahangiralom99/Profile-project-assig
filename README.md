@@ -2,7 +2,7 @@
 
 This project is hosted at [Heartfelt Medovik](https://heartfelt-medovik-ceea4b.netlify.app/).
 
-#Project Link [Link-](https://heartfelt-medovik-ceea4b.netlify.app/).
+#Project Link [Link-](https://heartfelt-medovik-ceea4b.netlify.app/)
 
 ## Getting Started
 
