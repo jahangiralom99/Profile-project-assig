@@ -92,9 +92,9 @@
     <!-- main start  -->
     <main class="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
       <!-- banner section  -->
-      <div class="flex flex-col md:flex-row gap-8 items-center">
+      <div class="flex flex-col md:flex-row gap-8 items-center relative">
         <!-- left side image -->
-        <div class="md:w-[550px] lg:h-[450px] bg-black">
+        <div class="md:w-[550px] lg:h-[400px] bg-black">
           <img
             class="w-full h-full pt-7"
             src="/Images/banner-image.png"
@@ -131,6 +131,40 @@
             </li>
           </ul>
         </div>
+        <!-- left side navIcon-->
+        <aside class="absolute hidden xl:block top-[71px] -left-[96px]">
+          <svg
+            width="92"
+            height="400"
+            viewBox="0 0 92 400"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0L92 64.1667V400H0V0Z" fill="#121414" />
+          </svg>
+        </aside>
+        <aside
+          class="text-[#A5A5A5] absolute hidden top-32 -left-[65px] xl:flex items-center flex-col gap-6 text-2xl"
+        >
+          <a>
+            <i class="fa-solid fa-house-user text-gradient"></i>
+          </a>
+          <a>
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a>
+            <i class="fa-solid fa-briefcase"> </i>
+          </a>
+          <a>
+            <i class="fa-regular fa-pen-to-square"></i>
+          </a>
+          <a>
+            <i class="fa-regular fa-pen-to-square"></i>
+          </a>
+        </aside>
+
+        <!-- end Nav Icon  -->
+
         <!-- right side  -->
         <div class="w-full text-white space-y-8 z-10">
           <p class="text-gradient font-bold">INTRODUCTION</p>
@@ -155,7 +189,7 @@
         </div>
       </div>
       <!-- right side bar  -->
-      <aside class="absolute hidden lg:block top-44 right-4">
+      <aside class="absolute hidden xl:block top-44 right-4">
         <svg
           width="91"
           height="433"
@@ -167,7 +201,7 @@
         </svg>
       </aside>
       <aside
-        class="-rotate-90 text-[#A5A5A5] absolute hidden top-80 -right-[187px] lg:flex items-center flex-row-reverse gap-4"
+        class="-rotate-90 text-[#A5A5A5] absolute hidden top-80 -right-[187px] xl:flex items-center flex-row-reverse gap-4"
       >
         <p>© design by themefisher developed by gethugothemes</p>
         <li
@@ -183,7 +217,7 @@
       </aside>
       <!-- banner section end ------------------------------- -->
       <!-- Resume Section  -->
-      <section class="mt-16">
+      <section class="mt-20">
         <h2 class="text-white text-3xl font-bold">Resume</h2>
         <!-- start Education Section  -->
         <div class="mt-8">
