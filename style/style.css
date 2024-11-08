@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #f5bd4d, #f89222);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Apply the gradient border */
+/* Wrapper element with gradient background and padding */
+.gradient-border-wrapper {
+  display: inline-block;
+  padding: 3px; /* Space for the gradient border */
+  border-radius: 9999px; /* Fully rounded corners */
+  background: linear-gradient(to right, #f5bd4d, #f89222); /* Gradient border */
+}
+
+/* Inner button with solid background */
+.gradient-border-button {
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: #171b1a;
+  color: #f89222;
+  font-weight: bold;
+  border-radius: 9999px;
+  cursor: pointer;
+  text-align: center;
+}
